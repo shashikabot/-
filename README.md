@@ -1,163 +1,115 @@
-/*
-===================================================================================================
-🧞‍♂️〽️ 𝘿𝙍𝘼𝙆 𝙎𝙃𝘼𝘿𝙊𝙒 𝗕𝗼𝘁 𝗠𝗱 💃〽️
-                                                  
-                                                  BY Hansamala
-===================================================================================================
-*/
+<p align="center"> 
+<b>༺═════════[🧞‍♂️〽️]══════════༻</b>
+</p>
+<p align="center"> 
+<img src="https://i.ibb.co/z75q5tn/maxresdefault.jpg" width="300" height="300"/>
+</p>
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Queen+Nilu+Whatsapp+Multidevice+Bot+;Created+By+Janiya" alt="">
+</p>
+<p align="center">
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Janiya-blue.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Janithsadanuwan?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
+<a href="https://github.com/Janithsadanuwan/QueenNilu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Janithsadanuwan/QueenNilu?color=white&style=flat-square"></a>
+<a href="https://github.com/Janithsadanuwan/QueenNilu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Janithsadanuwan/QueenNilu?color=yellow&style=flat-square"></a>
+<a href="https://github.com/Janithsadanuwan/QueenNilu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Janithsadanuwan/QueenNilu?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://github.com/Janithsadanuwan/QueenNilu/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Janithsadanuwan/QueenNilu/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Janithsadanuwan/QueenNilu/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+</p>
 
-const fs = require('fs')
-const chalk = require('chalk')
+## [`WebSite`](https://www
+/Drak Shadow)
+
+# 
+
+<b>Version --> 1.1.0</b>
+# 
+Queen Nilu whatsapp bot is,
+A very good bot that you can use in whatsapp.
+
+## [`Fork Drak Shadow Repo`](https://github.com/Janithsadanuwan/QueenNilu/fork)
 
 
+# 
 
-//👇 if you need seen massage use " true "
-global.READ_MASSAGE = 'false'
-//👇 enable desable Girls Voice Reply
-global.VOICE_REPLY =  'true'
-// You Bots Owner Number 
-global.owner = ['94740203415'] 
-//👇 Your Caption ( Image Video )
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙳𝚁𝙰𝙺 𝚂𝙷𝙰𝙳𝙾𝚆 ²⁰²³'
-//👇 Do you want show time on your bio use "on" want desable use "off"
-global.AUTO_BIO =  'off'
-//👇 Inbox massage block PM block
-global.INBOX_BLOCK =  'off'
-//👇 Auto react 
-global.AUTO_REACT =  'true'
-//👇 Bad word Auto delete ( you must add bad words )
-global.ANTI_BADWORD =  'true'
-//👇 Your Bot Name
-global.botnma =  '🧞‍♂️〽️ 𝘿𝙍𝘼𝙆 𝙎𝙃𝘼𝘿𝙊𝙒 𝗕𝗼𝘁 𝗠𝗱 💃〽️' 
-//👇 Your name
-global.ownernma =  'HANSAMALA' 
-//👇 Sticker package name
-global.packname =  '🧞‍♂️𝗗𝗥𝗔𝗞 𝘚𝘏𝘈𝘋𝘖𝘞' 
-//👇 Sticker Author Name
-global.author =  '_HANSAMALA_' 
-//👇 Kick And Auto Delete Group link Senders
-global.antilink =  'false'
-//👇 Inbox Block Massage 
-global.INBOX_BLOCK_MSG = 'BLOCK !!!'
-//👇 Owner React Imoji
-global.OWNER_REACT =  '🐼'
-global.BAD_KICK_MSG = '*Bad word detect !*'
-//👇 URL.button 1 name
-global.BUTTON1 = '𝙶𝚒𝚝𝚑𝚞𝚋'
-//👇 URL button 2 name
-global.BUTTON2 = '𝚈𝚘𝚞𝚝𝚞𝚋𝚎'
-//👇 Button 1 url 
-global.BUTTON1_URL = 'https://github.com/shashikabot/'
-//👇 Button 2 url
-global.BUTTON2_URL = 'https://youtube.com/@musicparadise5738'
-//👇 Your Add Massage 
-global.ADD_MSG = '*✅ Success add Group*' 
-//👇 Your Kick Massage 
-global.KICK_MSG = '*✅ Success Remove from Group*' 
-//👇 Song Download Massage 
-global.SONG_DOWN = '```⬇️ Downloading Your Song...📥```' 
-//👇 Song Uplode massage 
-global.SONG_UP = '```⬆️ Uploding Your Song...📤```'
-//👇 212 Number block
-global.NUMBER_212_BLOCK = 'true'
-//👇 Menu imoji 
-global.MENU_IMOJI = '🗒️|🪄'
-//👇 Your time zone ( use correct time zone )
-global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
-//👇 Removebg Api key
-global.REMOVE_BG_API = ''
-//👇 Pron Video Download 
-global.SEX_VIDEO_DOWNLOAD = process.env.SEX_VIDEO_DOWNLOAD || 'true'
-//👇 Change Bot Language (English-' EN ', Sinhala , ' SI ' , Tamil - ' TL ')
-global.LANG = 'EN'
-//Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://te.legra.ph/file/3e57249993356ba15109f.jpg`
-//👇 Alive message
-global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || ``
-//👇 Welcome Mesaage
-global.WELCOME = process.env.WELCOME || ``
-//👇 welcome image 
-global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || ``
-//👇 Goodbye message 
-global.GOODBYE = process.env.GOODBYE || ``
-//👇 Good bye image
-global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
-//👇 Send Welcome ( true or false )
-global.SEND_WELCOME = process.env.SEND_WELCOME || false
-//👇 Send block command message (true or false )
-global.BLOCK_CMD_MESSAGE_SEND = false
-//👇 Desable PM Block
-global.NO_BLOCK = ["94740203415"]
+* [`1️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://QUEEN-NILU.janithsadanuwan.repl.co)
 
 
 
+  if there any error please infrom it support group ✨
+# 
+
+[`Deploy on Railway`](https://railway.app?referralCode=FnnJ_C)
+
+[`Deploy on Koyeb`](https://app.koyeb.com/)
+
+[`Deploy on Mogenius`](https://studio.mogenius.com/)
+
+[`Deploy on Heroku`](https://heroku.com/deploy?template=)
+
+[`Deploy on uffizzi`](https://www.uffizzi.com/)
+
+[`Deploy on Replit`](https://replit.com/github/Janithsadanuwan/QueenNilu)
+
+
+* 𝗛𝗘𝗥𝗢𝗞𝗨 𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘 𝗟𝗜𝗡𝗞
+       
+          https://heroku.com/deploy?template=
+
+
+## [`WATCH YOUTUBE VIDEO`](https://youtu.be/4jnKUto3i3c)
+
++ DEPLOY STEPS
+# 
+1. Fork This Repository 
+2. Update [settings.js]()
+3. Uplode session.json file
+4. Make acount on railway , heroku , mogenius or koyeb 
+5. Connect Your Repository to your web host site
+6. [ Watch Video](https://youtu.be/4jnKUto3i3c)
+# 
+# How to Update Bot 
+
+<p align="left">
+<img src="https://telegra.ph/file/6af1182fb6bf4b3a43e1d.jpg"/>
+</p>
+
+  RAILWAY & KOYEB USERS :
+
+01. Visit to your GitHub and open your Queen Nilu fork repo.
+02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
+03. Then, you will see green colour button as "Update branch". Click it.
+04. Now, automatically bot will update.
+
+  LOCAL OR VPS USERS :  
+01. Visit to your GitHub and open your Queen Nilu fork repo.
+02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
+03. Then, you will see green colour button as "Update branch". Click it.
+04. Open command prompt and command git clone your_fork_url
+05. And it will update your files. Now, command cd QueenNilu && npm run pm-restart
+   
+   
+
+01. Visit to your GitHub and open your Queen  Nilu fork repo.
+02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
+03. Then, you will see green colour button as "Update branch". Click it.
+04. Connect to VPS and command git clone your_fork_url
+05. And it will update your files. Now, command cd QueenNilu && npm run pm-restart
+# 
+# 
+
+THANAKS FOR USNING QUEEN nilu💃💖
+
+[🧑‍💻 Join Drak Shadow Support Group 🧑‍💻](https://chat.whatsapp.com/EkVPhdnkk787dQDwu0GnBV)
+
+[💃 Join Public Group 💃](https://chat.whatsapp.com/EkVPhdnkk787dQDwu0GnBV)
 
 
 
+<h1>💃💖</h1> 
+<b>Thanks For</b> -
 
-//MORE
-global.zenzapi = '01ABEB1E11'
-global.tiktokthub = 'https://i.ibb.co/z75q5tn/maxresdefault.jpg'
-//other
-global.pemilik = ['94740203415'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['94740203415'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
-global.pengguna = '_Mr.Hansamala_' // Your name ඔබේ නම 
-global.sessionName = 'session'
-global.prefix = ['#','!','.'] 
-global.sp = '🔵'
-
-
-global.mess = {
-    success: '✅ Done!',
-    admin: '*Only admins can use this command !*',
-    botAdmin: '*Please admin the bot first !*',
-    owner: '*Sorry, this command is only for the owner !*',
-    group: '*This command can only be used in groups !*',
-    private: '*This command can only be used in Inbox !*',
-    bot: '*This command can only be used by bot number !*',
-    wait: '*♲ Please Wait ...*',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    BLOCK_CMD_MSG : '*⚠️ This Command is Block By Owner*',
-    BLOCK : '',
-    UNBLOCK : '',
-    KICK : '',
-    ADD : '',
-    LEAVE : '',
-    PROMOTE : '',
-    DEMOTE : ''
-}
-global.limitawal = {
-    premium: "Infinity", 
-    free: 90 
-}
-    global.rpg = {
-        darahawal: 100,
-        besiawal: 15,
-        goldawal: 10,
-        emeraldawal: 5,
-        umpanawal: 5,
-        potionawal: 1
-     }    
-
-
-
-
-//global api
-global.fbapi = 'dd79-1aeb-21a3'
-global.APIs = {
-	zenz: 'https://zenzapi.xyz', 
-}
-global.APIKeys = {
-	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
-}
-
-global.thumb = fs.readFileSync('https://te.legra.ph/file/8be699bf71bfa93acac3f.jpg')
-global.alivelogo = `https://te.legra.ph/file/8be699bf71bfa93acac3f.jpg`
-global.imgalive = fs.readFileSync('https://te.legra.ph/file/8be699bf71bfa93acac3f.jpg')
-let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
-})
+[Drak Shadow](github.com/Drak Shadow) for script ,Thanks ,Good Bye🧞‍♂️
