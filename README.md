@@ -1,115 +1,321 @@
-<p align="center"> 
-<b>༺═════════[🧞‍♂️〽️]══════════༻</b>
-</p>
-<p align="center"> 
-<img src="https://i.ibb.co/z75q5tn/maxresdefault.jpg" width="300" height="300"/>
-</p>
-<p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Queen+Nilu+Whatsapp+Multidevice+Bot+;Created+By+Janiya" alt="">
-</p>
-<p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Janiya-blue.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/Janithsadanuwan?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
-<a href="https://github.com/Janithsadanuwan/QueenNilu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Janithsadanuwan/QueenNilu?color=white&style=flat-square"></a>
-<a href="https://github.com/Janithsadanuwan/QueenNilu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Janithsadanuwan/QueenNilu?color=yellow&style=flat-square"></a>
-<a href="https://github.com/Janithsadanuwan/QueenNilu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Janithsadanuwan/QueenNilu?label=Watchers&color=red&style=flat-square"></a>
-<a href="https://github.com/Janithsadanuwan/QueenNilu/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Janithsadanuwan/QueenNilu/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Janithsadanuwan/QueenNilu/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
-</p>
+# lowdb [![](http://img.shields.io/npm/dm/lowdb.svg?style=flat)](https://www.npmjs.org/package/lowdb) [![Node.js CI](https://github.com/typicode/lowdb/actions/workflows/node.js.yml/badge.svg)](https://github.com/typicode/lowdb/actions/workflows/node.js.yml)
 
-## [`WebSite`](https://www
-/Drak Shadow)
+> Tiny local JSON database for small projects 🦉
 
-# 
+```js
+db.data.posts.push({ id: 1, title: 'lowdb is awesome' })
+db.write()
+```
 
-<b>Version --> 1.1.0</b>
-# 
-Queen Nilu whatsapp bot is,
-A very good bot that you can use in whatsapp.
+```js
+// db.json
+{
+  "posts": [
+    { "id": 1, "title": "lowdb is awesome" }
+  ]
+}
+```
 
-## [`Fork Drak Shadow Repo`](https://github.com/Janithsadanuwan/QueenNilu/fork)
+## Free for Open Source
 
+To help with OSS funding, lowdb v2 is released under Parity license for a limited time. It'll be released under MIT license once the __goal of 100 [sponsors](https://github.com/sponsors/typicode)__ is reached (currently at 57) or in five months.
 
-# 
+Meanwhile, lowdb v2 can be freely used in Open Source projects. Sponsors can use it in any type of project.
 
-* [`1️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://QUEEN-NILU.janithsadanuwan.repl.co)
+If you've installed this new version without knowing about the license change, you're excused for 30 days. There's also a 30 days trial. See license files for more details.
 
+Thank you for your support!
 
+__Note:__ if you're already sponsoring [husky](https://github.com/typicode/husky), you can use lowdb v2 today :)
 
-  if there any error please infrom it support group ✨
-# 
+## Companies
 
-[`Deploy on Railway`](https://railway.app?referralCode=FnnJ_C)
+[Become a sponsor and have your company logo here](https://github.com/sponsors/typicode).
 
-[`Deploy on Koyeb`](https://app.koyeb.com/)
+## Features
 
-[`Deploy on Mogenius`](https://studio.mogenius.com/)
+- __Lightweight__
+- Query and modify data using __plain JS__
+- Improved __TypeScript__ support
+- Atomic write
+- Hackable:
+  - Change storage, file format (JSON, YAML, ...) or add encryption via [adapters](#adapters)
+  - Add lodash, ramda, ... for super powers!
 
-[`Deploy on Heroku`](https://heroku.com/deploy?template=)
+## Install
 
-[`Deploy on uffizzi`](https://www.uffizzi.com/)
+```sh
+npm install lowdb
+```
 
-[`Deploy on Replit`](https://replit.com/github/Janithsadanuwan/QueenNilu)
+## Usage
 
+```js
+import { join } from 'path'
+import { Low, JSONFile } from 'lowdb'
 
-* 𝗛𝗘𝗥𝗢𝗞𝗨 𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘 𝗟𝗜𝗡𝗞
-       
-          https://heroku.com/deploy?template=
+// Use JSON file for storage
+const file = join(__dirname, 'db.json')
+const adapter = new JSONFile(file)
+const db = new Low(adapter)
 
+// Read data from JSON file, this will set db.data content
+await db.read()
 
-## [`WATCH YOUTUBE VIDEO`](https://youtu.be/4jnKUto3i3c)
+// If file.json doesn't exist, db.data will be null
+// Set default data
+db.data ||= { posts: [] }
 
-+ DEPLOY STEPS
-# 
-1. Fork This Repository 
-2. Update [settings.js]()
-3. Uplode session.json file
-4. Make acount on railway , heroku , mogenius or koyeb 
-5. Connect Your Repository to your web host site
-6. [ Watch Video](https://youtu.be/4jnKUto3i3c)
-# 
-# How to Update Bot 
+// Create and query items using plain JS
+db.data.posts.push('hello world')
+db.data.posts[0]
 
-<p align="left">
-<img src="https://telegra.ph/file/6af1182fb6bf4b3a43e1d.jpg"/>
-</p>
+// You can also use this syntax if you prefer
+const { posts } = db.data
+posts.push('hello world')
 
-  RAILWAY & KOYEB USERS :
+// Write db.data content to db.json
+await db.write()
+```
 
-01. Visit to your GitHub and open your Queen Nilu fork repo.
-02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
-03. Then, you will see green colour button as "Update branch". Click it.
-04. Now, automatically bot will update.
+```js
+// db.json
+{
+  "posts": [ "hello world" ]
+}
+```
 
-  LOCAL OR VPS USERS :  
-01. Visit to your GitHub and open your Queen Nilu fork repo.
-02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
-03. Then, you will see green colour button as "Update branch". Click it.
-04. Open command prompt and command git clone your_fork_url
-05. And it will update your files. Now, command cd QueenNilu && npm run pm-restart
-   
-   
+### TypeScript
 
-01. Visit to your GitHub and open your Queen  Nilu fork repo.
-02. Under the green colour button as "Code" you will see "Sync fork" button. Click it.
-03. Then, you will see green colour button as "Update branch". Click it.
-04. Connect to VPS and command git clone your_fork_url
-05. And it will update your files. Now, command cd QueenNilu && npm run pm-restart
-# 
-# 
+Lowdb now comes with TypeScript support. You can even type `db.data` content.
 
-THANAKS FOR USNING QUEEN nilu💃💖
+```ts
+type Data = {
+  posts: string[] // Expect posts to be an array of strings
+}
+const adapter = new JSONFile<Data>('db.json')
+const db = new Low<Data>(adapter)
 
-[🧑‍💻 Join Drak Shadow Support Group 🧑‍💻](https://chat.whatsapp.com/EkVPhdnkk787dQDwu0GnBV)
+db.data
+  .posts
+  .push(1) // TypeScript error 🎉
+```
 
-[💃 Join Public Group 💃](https://chat.whatsapp.com/EkVPhdnkk787dQDwu0GnBV)
+### Lodash
 
+You can easily add lodash or other utility libraries to improve lowdb.
 
+```js
+import lodash from lodash
 
-<h1>💃💖</h1> 
-<b>Thanks For</b> -
+// ...
+// Note: db.data needs to be initialized before lodash.chain is called.
+db.chain = lodash.chain(db.data)
 
-[Drak Shadow](github.com/Drak Shadow) for script ,Thanks ,Good Bye🧞‍♂️
+// Instead of db.data, you can now use db.chain if you want to use the powerful API that lodash provides
+const post = db.chain
+  .get('posts')
+  .find({ id: 1 })
+  .value()
+```
+
+### More examples
+
+For CLI, server and browser usage, see [`examples/`](/examples) directory.
+
+## API
+
+### Classes
+
+Lowdb has two classes (for asynchronous and synchronous adapters).
+
+#### `new Low(adapter)`
+
+```js
+import { Low, JSONFile } from 'lowdb'
+
+const db = new Low(new JSONFile('file.json'))
+await db.read()
+await db.write()
+```
+
+#### `new LowSync(adapterSync)`
+
+```js
+import { LowSync, JSONFileSync } from 'lowdb'
+
+const db = new LowSync(new JSONFileSync('file.json'))
+db.read()
+db.write()
+```
+
+### Methods
+
+#### `db.read()`
+
+Calls `adaper.read()` and sets `db.data`.
+
+**Note:** `JSONFile` and `JSONFileSync` adapters will set `db.data` to `null` if file doesn't exist.
+
+```js
+db.data // === null
+db.read()
+db.data // !== null
+```
+
+#### `db.write()`
+
+Calls `adapter.write(db.data)`.
+
+```js
+db.data = { posts: [] }
+db.write() // file.json will be { posts: [] }
+db.data = {}
+db.write() // file.json will be {}
+```
+
+### Properties
+
+#### `db.data`
+
+Holds your db content. If you're using the adapters coming with lowdb, it can be any type supported by [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
+
+For example:
+
+```js
+db.data = 'string'
+db.data = [1, 2, 3]
+db.data = { key: 'value' }
+```
+
+## Adapters
+
+### Lowdb adapters
+
+#### `JSONFile` `JSONFileSync`
+
+Adapters for reading and writing JSON files.
+
+```js
+new Low(new JSONFile(filename))
+new LowSync(new JSONFileSync(filename))
+```
+
+#### `Memory` `MemorySync`
+
+In-memory adapters. Useful for speeding up unit tests.
+
+```js
+new Low(new Memory())
+new LowSync(new MemorySync())
+```
+
+#### `LocalStorage`
+
+Synchronous adapter for `window.localStorage`.
+
+```js
+new LowSync(new LocalStorage(name))
+```
+
+#### `TextFile` `TextFileSync`
+
+Adapters for reading and writing text. Useful for creating custom adapters.
+
+### Third-party adapters
+
+If you've published an adapter for lowdb, feel free to create a PR to add it here.
+
+### Writing your own adapter
+
+You may want to create an adapter to write `db.data` to YAML, XML, encrypt data, a remote storage, ...
+
+An adapter is a simple class that just needs to expose two methods:
+
+```js
+class AsyncAdapter {
+  read() { /* ... */ } // should return Promise<data>
+  write(data) { /* ... */ } // should return Promise<void>
+}
+
+class SyncAdapter {
+  read() { /* ... */ } // should return data
+  write(data) { /* ... */ } // should return nothing
+}
+```
+
+For example, let's say you have some async storage and want to create an adapter for it:
+
+```js
+import { api } from './AsyncStorage'
+
+class CustomAsyncAdapter {
+  // Optional: your adapter can take arguments
+  constructor(args) {
+    // ...
+  }
+
+  async read() {
+    const data = await api.read()
+    return data
+  }
+
+  async write(data) {
+    await api.write(data)
+  }
+}
+
+const adapter = new CustomAsyncAdapter()
+const db = new Low(adapter)
+```
+
+See [`src/adapters/`](src/adapters) for more examples.
+
+#### Custom serialization
+
+To create an adapter for another format than JSON, you can use `TextFile` or `TextFileSync`. 
+
+For example:
+
+```js
+import { Adapter, Low, TextFile } from 'Low.js'
+import YAML from 'yaml'
+
+export class YAMLFile {
+  private adapter
+
+  constructor(filename: string) {
+    this.adapter = new TextFile(filename)
+  }
+
+  async read() {
+    const data = await this.adapter.read()
+    if (data === null) {
+      return null
+    } else {
+      return YAML.parse(data)
+    }
+  }
+
+  write(obj) {
+    return this.adapter.write(YAML.stringify(obj))
+  }
+}
+
+const adapter = new YAMLFile('file.yaml')
+const db = new Low(adapter)
+```
+
+## Limits
+
+Lowdb doesn't support Node's cluster module.
+
+If you have large JavaScript objects (`~10-100MB`) you may hit some performance issues. This is because whenever you call `db.write`, the whole `db.data` is serialized and written to storage.
+
+Depending on your use case, this can be fine or not. It can be mitigated by doing batch operations and calling `db.write` only when you need it. 
+
+If you plan to scale, it's highly recommended to use databases like PostgreSQL, MongoDB, ... 
+
+## License
+
+[License Zero Parity 7.0.0](https://paritylicense.com/versions/7.0.0.html) and MIT (contributions) with exception [License Zero Patron 1.0.0](https://patronlicense.com/versions/1.0.0).
